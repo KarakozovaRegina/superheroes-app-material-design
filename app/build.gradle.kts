@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "krv.fit.bstu.basic_superheroes_app_material_design"
-        minSdk = 36
+        minSdk = 32
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
@@ -56,4 +56,5 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
 }
